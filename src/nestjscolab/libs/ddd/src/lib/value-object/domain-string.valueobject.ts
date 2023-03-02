@@ -13,7 +13,7 @@ export class DomainStringValueObject extends DomainValueObject<string> {
     super({ value });
   }
 
-  static create(value: string) {
+  public static create(value: string) {
     return new DomainStringValueObject(value);
   }
 }
