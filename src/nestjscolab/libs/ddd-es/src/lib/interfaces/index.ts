@@ -1,0 +1,5 @@
+export * from './idddes-module.interface'
+export * from './idddes.option.interface'
+export * from './idddes.interface'
+export * from './idddes-aggregate-repository.interface'
+export * from './idddes-record-respository.interface'
