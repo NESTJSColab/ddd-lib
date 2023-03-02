@@ -1,0 +1,14 @@
+{
+  "name": "@nestjscolab/ddd",
+  "version": "0.0.5",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "dependencies": {
+    "release-it": "^15.7.0"
+  }
+}
