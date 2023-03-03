@@ -1,6 +1,6 @@
 import { DomainEsRecord } from '../database/collections/domain-es-record.collection';
 
-export interface IDddEsRecordRepository {
+export interface IDomainEsRecordRepository {
   getEvents<TRecord extends DomainEsRecord>(
     aggregateId: string,
     aggregateName: string

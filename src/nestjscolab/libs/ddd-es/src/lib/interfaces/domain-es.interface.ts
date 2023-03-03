@@ -1,3 +1,5 @@
+import { DomainEvent } from '@nestjscolab/ddd';
+
 export interface IDomainEsEventStore {
   saveEvents(
     aggregateId: string,
