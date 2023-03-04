@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nestjscolab/ddd": ["libs/ddd/src/index.ts"]
+      "@nestjscolab/ddd": ["libs/ddd/src/index.ts"],
+      "@nestjscolab/ddd-eb": ["libs/ddd-eb/src/index.ts"],
+      "@nestjscolab/ddd-es": ["libs/ddd-es/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
